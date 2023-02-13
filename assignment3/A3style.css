@@ -1,0 +1,43 @@
+#head1 {
+    color: #BF3F3F
+}
+#head2 {
+    color: #3F3FBF
+}
+#head3 {
+    color: #3FBF3F
+}
+
+.spanstyle {
+    text-decoration: underline;
+}
+
+.divstyle {
+    background-color: #808380;
+}
+
+.classinfo  {
+    color: #5F0AFF;
+    font-style: italic;
+}
+
+h2 {
+    background-color: #BF7F3F;
+}
+
+h3 {
+    background-color: #3FBFBF;
+}
+
+a {
+    color: #FF0A0A;
+}
+
+a:visited {
+    color: #009300;
+}
+
+a:hover {
+    color: #FFFF0A;
+    background-color: black;
+}
