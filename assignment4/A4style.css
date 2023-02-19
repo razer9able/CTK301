@@ -1,0 +1,79 @@
+.spanstyle {
+    text-decoration: underline;
+}
+
+.divstyle {
+    background-color: #808380;
+    text-align: center;
+}
+
+.classinfo  {
+    color: #5F0AFF;
+    font-style: italic;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.imagebox {
+    border: 10px solid black;
+    padding: 2px 2px 2px 2px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
+
+body {
+    background-color: black;
+    background-image: url(windows_xp_bliss-wide.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: orange;
+    background-color: black;
+    font-style: italic;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    color: orange;
+    background-color: black;
+    font-style: italic;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: orange;
+    background-color: black;
+    font-style: italic;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+a {
+    color: #FF0A0A;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+a:visited {
+    color: #009300;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: #FFFF0A;
+    background-color: black;
+    background-color: black;
+    font-family: sans-serif;
+}
