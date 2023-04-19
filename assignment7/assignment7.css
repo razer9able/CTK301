@@ -1,0 +1,158 @@
+.foot {
+    background-color: red;
+    color: white;
+    border-top: 5px solid darkblue;
+    font-style: italic;
+    font-family:  Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
+    padding: 10px;
+    grid-column: span 12;
+    margin: 0;
+}
+
+.floatleft {
+    float: left;
+    padding: 0px;
+    border: 3px solid darkblue;
+    margin: 10px;
+}
+
+.floatright {
+    float: right;
+    padding: 0px;
+    border: 3px solid darkblue;
+    margin: 10px;
+}
+
+.nofloat {
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+}
+
+.bold {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+div {
+    background-color: white;
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid darkblue;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+div a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    background-image: linear-gradient(to bottom, #0066ff, #005ae1, #004fc4, #0043a8, #00388c);
+    color: white;
+    padding: 20px;
+    grid-column: span 12;
+    margin: 0px;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: darkblue;
+    padding-bottom: 10px;
+    border-bottom: 3px solid darkblue;
+    font-weight: normal;
+
+}
+
+body {
+    background-color: lightgrey;
+}
+
+nav {
+    grid-column: span 12;
+    margin: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0;
+    padding-left: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #0066ff, #005ae1, #004fc4, #0043a8, #00388c);
+    border-top: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+}
+
+nav li {
+    padding-bottom: 10px;
+    display: inline-block;
+    margin: 0px;
+}
+
+nav li a {
+    background-image: linear-gradient(to bottom, #0066ff, #005ae1, #004fc4, #0043a8, #00388c);
+    color: white;
+    border-right: 3px solid darkblue;
+    text-decoration: none;
+    font-weight:  bold;
+    display: block;
+    padding: 10px;
+    font-weight: normal;
+    margin: 0px;
+    width: 240px;
+}
+
+nav li a:hover {
+    color: white;
+    background-image: linear-gradient(to top, #0066ff, #005ae1, #004fc4, #0043a8, #00388c);
+    text-decoration: none;
+}
+
+main {
+    grid-column: span 8;
+    margin: 10px;
+}
+
+.Sidebar {
+    background-color: lightblue;
+    grid-column: span 4;
+    padding: 10px;
+    font-weight: bold;
+}
+
+p {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headlink {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+}
+.headlink:hover {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+.triplet {
+    grid-column: span 4;
+    margin: 0;
+    padding: 10px;
+}
